@@ -1,0 +1,245 @@
+* {box-sizing: border-box;}
+
+body
+{
+    background-color: #40407A;
+    color: #40407A;
+    font-family: Verdana;
+    margin: 0;
+}
+
+header
+{
+    background-color: #40407A;
+    color: #FFFFFF;
+    background-image: url("sunrise.jpg");
+    background-size: 100% 100%;
+    margin-top: 50px;
+    font-size: 120%;
+    min-height: 200px;
+}
+
+nav
+{
+    text-align: right;
+    background-color: white;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-right: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+}
+
+nav a
+{
+    text-decoration: none;
+
+}
+
+footer
+{
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    clear: right;
+}
+
+li
+{
+    font-size: 90%;
+}
+
+dd
+{
+    font-size: 90%;
+}
+
+#wrapper
+{
+    background-color: #F5F5F5;
+    padding: 2em;
+    margin: auto;
+    width: 80%;
+}
+
+.home
+{
+    padding-top: 5em;
+    padding-left: 8em;
+    height: 50vh;
+    padding-top: 2em;
+    padding-left: 10%;
+}
+
+.content
+{
+    height: 30vh;
+    padding-top: 2em;
+    padding-left: 8em;
+}
+
+#mathero
+{
+    height: 300px;
+    background-image: url("yogamat.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: block;
+    padding-bottom: 1em;
+}
+
+#loungehero
+{
+    display: none;
+    display: block;
+    padding-bottom: 1em;
+}
+
+h2
+{
+    margin: 0;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 2em;
+    font-size: 1.2em;
+}
+
+nav li
+{
+    display: inline;
+    padding-left: 2em;
+    width: 7em;
+}
+
+:link
+{
+    color: #3F2860;
+}
+
+:visited
+{
+    color: #497777;
+}
+
+:hover
+{
+    color: #A26100;
+}
+
+header a
+{
+    text-decoration: none;
+}
+
+header :link
+{
+    color: #FFFFFF;
+}
+
+header :visited
+{
+    color: #FFFFFF;
+}
+
+header a :hover
+{
+    color: #8F92B2;
+    transition-timing-function: ease-out;
+    transition: 10s;
+}
+
+section
+{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#flow
+{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+table
+{
+    border: 1px;
+    border-color: purple;
+    margin-bottom: 1em;
+    min-width: 400px;
+    border-collapse: collapse;
+}
+
+td
+{
+    padding: 0.5em;
+    border: 1px;
+    border-color: purple;
+}
+
+th
+{
+    padding: 0.5em;
+    border: 1px;
+    border-color: purple;
+}
+
+:nth-of-type
+{
+    background-color: #D7E8E9;
+}
+
+caption
+{
+    margin: 1em;
+    font-style: bold;
+    font-size: 120%;
+}
+
+form
+{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 60%;
+    max-width: 40em;
+    display: grid;
+    grid-gap: 1em;
+    columns: 2;
+    grid-row-start: auto;
+}
+
+input, datalist textarea
+{
+    margin-bottom: .5em;
+}
+
+button
+{
+    grid-column: 2;
+    width: 9em;
+}
+
+audio
+{
+    margin-bottom: 1em;
+}
